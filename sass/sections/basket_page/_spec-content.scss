@@ -1,0 +1,27 @@
+.spec-content {
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        color: #000000;
+        margin-top: 64px;
+    }
+
+    &__link {
+        display: block;
+        margin-top: 32px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration-line: none;
+        color: #000000;
+        text-decoration: none;
+        // &:hover{
+        //     text-decoration: underline;
+        // }
+    }
+}

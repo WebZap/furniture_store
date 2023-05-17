@@ -1,0 +1,210 @@
+.sales {
+    padding-top: 64px;
+
+    &__content {
+        grid-column: span 8;
+    }
+
+    //NAV-BLOCK
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        grid-column: span 4;
+        padding-bottom: 15px;
+        padding-right: 28px;
+    }
+
+    &__nav-item {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+
+    }
+
+
+    //CARD - BLOCK
+    &__card {
+        display: flex;
+        padding: 25px 0 32px 0;
+        column-gap: 32px;
+        border-top: 1px solid #CACDD8;
+
+
+    }
+    &__wr-btn{
+        display: flex;
+        align-content: center;
+        
+    }
+
+
+
+    &__card-picture {
+        grid-column: span 2;
+        width: 173px;
+        height: 173px;
+    }
+
+    &__wr-descr {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    &__info-product {
+        display: flex;
+        flex-direction: column;
+        width: 235px;
+
+    }
+
+    &__card-name {
+        margin-bottom: 14px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+
+
+    }
+
+    &__card-descr {
+        margin-bottom: 16px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #888888;
+    }
+
+    &__card-price {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #050505;
+        margin-bottom: 16px;
+    }
+
+    &__flex-wr-links {
+        display: flex;
+        column-gap: 30px;
+    }
+
+    &__card-link {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 210%;
+        color: #000000;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__card-input {
+        width: 71px;
+        height: 51px;
+        background-color: #F7F6F6;
+        border: 1px solid #F7F6F6;
+        border-radius: 6px;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 210%;
+        /* or 29px */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Color - 7 */
+
+        color: #000000;
+
+
+    }
+
+
+
+    &__form {
+        grid-column: span 4;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        background: #F7F6F6;
+        border-radius: 20px;
+    }
+
+    &__form-bar {
+        margin-top: 35px;
+        width: 300px;
+        text-align: center;
+    }
+
+    &__form-title {
+        margin-top: 42px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    &__text-input {
+        border: 0;
+        border-bottom: 1px solid #CACDD8;
+        background-color: transparent;
+        // padding-top: 35px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        width: 100%;
+
+        &:not(:first-child){
+            margin-top: 35px;
+        }
+
+        &::placeholder {
+            background: transparent;
+
+        }
+    }
+
+    &__sum-wrap {
+        margin: 64px 0 18px 0;
+
+    }
+
+    &__sum-count {
+        font-family: 'Montserrat';
+
+        font-weight: 400px;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+
+        &_medium {
+            font-weight: 600;
+            padding-left: 10px;
+        }
+    }
+}

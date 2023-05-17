@@ -1,0 +1,39 @@
+.btn {
+    width: 200px;
+    height: 37px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #020202;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+        color: #FFFFFF;
+        transition: 0.3s;
+    }
+
+    &_bigger {
+        width: 290px;
+        height: 41px;
+        background-color: transparent;
+    }
+
+    &_gray{
+        background: rgba(222, 215, 215, 0.41);
+        border: 1px solid #FFFFFF;
+        width: 275px;
+        height: 46px;
+    }
+    &_catalog{
+        width: 166px;
+    }
+    
+}

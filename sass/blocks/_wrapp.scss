@@ -1,0 +1,29 @@
+.wrapp{
+    &_header{
+        background-image: url(../img/bg/basket_bg.png);
+        min-height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        background-position: center;
+    }
+    &_sales{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 33px;
+    }
+    &_spec{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        flex-wrap: wrap;
+        
+    }
+    &_footer{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+   
+}

@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 77px;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+
+    &__input {
+        border: 1px solid #FFFFFF;
+        border-radius: 20px;
+        width: 288px;
+        height: 41px;
+        background: transparent;
+        padding-left: 28px;
+        outline: none;
+        font-family: 'Montserrat';
+        color: white;
+        transition: 0.5s;
+        
+        &::placeholder{
+            color: rgb(255, 255, 255);
+        }
+        &:focus{
+            background-color: rgb(255, 255, 255, 0.8);
+            border-color: rgb(39, 39, 39);
+            color: black;
+            transition: 0.5s;
+        }
+        &:focus::placeholder{
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    &__menu {
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+
+        &:hover {
+            text-decoration: underline;
+        }
+        
+    }
+    &__menu-mobile{
+        display: none;
+    }
+}

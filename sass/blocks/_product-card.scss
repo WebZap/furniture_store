@@ -1,0 +1,110 @@
+.product-card {
+    width: 378px;
+    box-sizing: border-box;
+    transition: .3s;
+    padding: 5px;
+    
+    &:hover{
+        box-shadow: 0px 0px 10px 1px #808080;
+        transform: scale(1.005);
+        
+        
+    }
+    
+
+    &__choice-one {
+        display: none;
+        
+    }
+
+    &__choice-two {
+        display: none;
+        
+    }
+
+    &__wrap-img {
+        position: relative;
+        cursor: zoom-in;
+
+        &:hover {
+            .product-card__choice-one {
+                display: block;
+                position: absolute;
+                right: 4%;
+                top: 4%;
+                cursor: pointer;
+                
+
+            }
+
+            .product-card__choice-two {
+                display: block;
+                position: absolute;
+                right: 12.15%;
+                top: 3.3%;
+                cursor: pointer;
+                
+            }
+        }
+    }
+
+    // &__choice-one {
+    //     position: absolute;
+    //     right: 4%;
+    //     top: 4%;
+
+    // }
+
+    // &__choice-two {
+    //     position: absolute;
+    //     right: 12.15%;
+    //     top: 3.3%;
+    // }
+
+    &__picture {
+        width: 100%;
+    }
+
+    &__name {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-top: 10px;
+    }
+
+    &__descr {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #888888;
+        margin-top: 7px;
+    }
+
+    &__flex-wrap {
+        display: flex;
+        gap: 32px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    &__price {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #050505;
+
+        &_line {
+            text-decoration-line: line-through;
+            color: #888888;
+        }
+    }
+
+
+}

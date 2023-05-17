@@ -1,0 +1,146 @@
+.top {
+    background-image: url(../img/bg/header_bg.png);
+    min-height: 735px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    background-position: center;
+}
+
+
+
+
+.special__wrap-product {
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+
+}
+
+.catalog__wrap-product {
+    display: flex;
+
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 32px;
+}
+
+
+.home__title {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin-top: 64px;
+
+}
+
+.home__descr {
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+
+.content-link {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    &_black {
+        color: #000000;
+    }
+
+}
+
+.furniture__grid-wrap {
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px
+}
+
+.furniture__item {
+
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    height: 415px;
+    grid-column: span 4;
+    transition: 1s;
+
+
+
+
+}
+
+.furniture__item:hover {
+    transform: scale(1.03);
+    transition: all 0.8s ease-out;
+    box-shadow: rgb(0, 0, 0) 1px 0 10px;
+
+}
+
+
+
+.furniture__item--6-colums {
+    grid-column: span 6;
+}
+
+.furniture__item--background-1 {
+    background-image: url(../img/furninure/Rectangle\ 17.png);
+    background-position: center;
+}
+
+.furniture__item--background-2 {
+    background-image: url(../img/furninure/Rectangle\ 18.png);
+    background-position: center;
+}
+
+.furniture__item--background-3 {
+    background-image: url(../img/furninure/Rectangle\ 19.png);
+    background-position: center;
+}
+
+.furniture__item--background-4 {
+    background-image: url(../img/furninure/Rectangle\ 20.png);
+    background-position: center;
+}
+
+.furniture__item--background-5 {
+    background-image: url(../img/furninure/Rectangle\ 21.png);
+    background-position: center;
+}
+
+.furniture__card-name {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+
+}

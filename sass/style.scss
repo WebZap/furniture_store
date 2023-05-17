@@ -1,0 +1,91 @@
+@import 'base/center';
+@import 'base/variables';
+//_______________________//
+
+@import 'blocks/btn';
+@import 'blocks/logo';
+@import 'blocks/wrapp';
+@import 'blocks/header';
+@import 'blocks/product-card';
+@import 'blocks/footer';
+
+//___________________________  //
+
+@import 'sections/basket_page/sales';
+@import 'sections/basket_page/spec-content';
+
+//__________________________________________//
+
+@import 'sections/basket_page/basket-promo';
+@import 'sections/main_page/index';
+@import 'sections/catalog_page/catalog';
+
+//_________________________________________//
+
+@import 'media/tablet';
+@import 'media/mobile';
+//_____________________________________//
+
+
+
+
+
+
+
+
+/*МУСОР*---------------------------------/
+
+
+/* СЕКЦИЯ FURNITURE */
+
+
+
+
+/*ПСЕВДОКЛАССЫ*/
+
+
+
+// .menu__link:hover {
+//     text-decoration: underline;
+// }
+
+// .footer__link:hover {
+//     text-decoration: underline;
+// }
+
+// .home__link:hover {
+//     text-decoration: underline;
+// }
+
+// .footer__mail:focus {
+//     outline: none;
+
+// }
+
+/* СТИЛИЗАЦИЯ КАТАЛОГА */
+
+
+
+
+
+
+
+
+
+
+/* 
+.standart-select:after {
+    content: "▼";
+    padding: 0 8px;
+    font-size: 12px;
+    position: absolute;
+    right: 70px;
+    top: 4px;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    color: #000;
+} */
