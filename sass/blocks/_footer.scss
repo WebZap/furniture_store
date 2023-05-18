@@ -89,16 +89,23 @@
     }
 
     &__cont-ico-img-inst {
-        background-image: url(../img/social_links/inst.svg);
-        background-repeat: no-repeat;
+        fill: #888888;
+
+        &:hover {
+            transition: .4s;
+            fill: black;
+        }
 
 
     }
 
     &__cont-ico-img-twit {
-        background-image: url(../img/social_links/twitter.svg);
-        background-repeat: no-repeat;
-        margin-top: 5px;
+        fill: #888888;
+
+        &:hover {
+            transition: .4s;
+            fill: black;
+        }
 
     }
 
@@ -109,8 +116,12 @@
     }
 
     &__cont-ico-img-face {
-        background-image: url(../img/social_links/facebook.svg);
-        background-repeat: no-repeat;
+        fill: #888888;
+
+        &:hover {
+            transition: .4s;
+            fill: black;
+        }
     }
 
     &__forms-news {

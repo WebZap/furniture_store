@@ -177,6 +177,14 @@
 .header__menu-mobile {
   display: none;
 }
+.header__menu-mobile-link-svg {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  fill: #FFFFFF;
+}
+.header__menu-mobile-link-svg:hover {
+  fill: #000000;
+}
 
 .product-card {
   width: 378px;
@@ -355,13 +363,20 @@
   cursor: pointer;
 }
 .footer__cont-ico-img-inst {
-  background-image: url(../img/social_links/inst.svg);
-  background-repeat: no-repeat;
+  fill: #888888;
+}
+.footer__cont-ico-img-inst:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  fill: black;
 }
 .footer__cont-ico-img-twit {
-  background-image: url(../img/social_links/twitter.svg);
-  background-repeat: no-repeat;
-  margin-top: 5px;
+  fill: #888888;
+}
+.footer__cont-ico-img-twit:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  fill: black;
 }
 .footer__wrapdiv {
   display: -webkit-box;
@@ -373,8 +388,12 @@
   min-width: 340px;
 }
 .footer__cont-ico-img-face {
-  background-image: url(../img/social_links/facebook.svg);
-  background-repeat: no-repeat;
+  fill: #888888;
+}
+.footer__cont-ico-img-face:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  fill: black;
 }
 .footer__forms-news {
   font-family: "Montserrat";

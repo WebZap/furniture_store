@@ -54,4 +54,11 @@
     &__menu-mobile{
         display: none;
     }
+    &__menu-mobile-link-svg{
+        transition: .4s;
+        fill: #FFFFFF;
+        &:hover{
+            fill: #000000;
+        }
+    }
 }
