@@ -24,6 +24,8 @@
         width: 290px;
         height: 41px;
         background-color: transparent;
+        
+
     }
 
     &_gray{
@@ -31,6 +33,7 @@
         border: 1px solid #FFFFFF;
         width: 275px;
         height: 46px;
+        animation: heartbeat 2000ms ease-in-out 3s infinite both;
     }
     &_catalog{
         width: 166px;
