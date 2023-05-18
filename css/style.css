@@ -1150,8 +1150,14 @@ select {
     display: block;
     text-align: center;
   }
+  .content-link {
+    display: block;
+  }
   .content-link_right {
     text-align: left;
+  }
+  .content-link_center {
+    text-align: center;
   }
   .furniture__grid-wrap {
     grid-template-columns: repeat(auto-fit, minmax(250px, 343px));

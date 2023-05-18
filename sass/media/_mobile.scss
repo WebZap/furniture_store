@@ -73,9 +73,13 @@
 
     }
     .content-link{
+        display: block;
         &_right {
                 text-align: left;
             }
+        &_center {
+            text-align: center;
+        }
     }
     .furniture {
         &__grid-wrap {
