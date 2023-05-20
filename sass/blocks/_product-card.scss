@@ -34,10 +34,13 @@
                 right: 4%;
                 top: 4%;
                 cursor: pointer;
-                fill: white;
 
-                &:hover {
-                    fill: rgb(244, 132, 132);
+                svg {
+                    fill: white;
+
+                    &:hover {
+                        fill: rgb(244, 132, 132);
+                    }
                 }
 
             }
@@ -48,11 +51,17 @@
                 right: 12.15%;
                 top: 3.3%;
                 cursor: pointer;
-                fill: white;
 
-                &:hover {
-                    fill: rgb(244, 132, 132);
+                svg {
+                    fill: white;
+
+                    &:hover {
+                        fill: rgb(244, 132, 132);
+                    }
                 }
+
+
+
             }
         }
     }
