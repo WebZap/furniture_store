@@ -35,16 +35,19 @@
                 top: 4%;
                 cursor: pointer;
 
-                
+
 
             }
+
             .product-card__choice-one svg {
-                            fill: white;
-            
-                            &:hover {
-                                fill: rgb(244, 132, 132);
-                            }
-                        }
+                fill: white;
+                transition: .2s;
+                &:hover {
+                        fill: rgb(249, 44, 44);
+                        filter: drop-shadow(0px 0px 3px #ff3c00);
+                
+                    }
+            }
 
             .product-card__choice-two {
                 display: block;
@@ -53,13 +56,18 @@
                 top: 3.3%;
                 cursor: pointer;
             }
+
             .product-card__choice-two svg {
-                            fill: white;
-            
-                            &:hover {
-                                fill: rgb(244, 132, 132);
-                            }
-                        }
+                fill: white;
+                transition: .2s;
+                filter:none;
+
+                &:hover {
+                    fill: rgb(249, 44, 44);
+                    filter: drop-shadow(0px 0px 3px #ff3c00);
+                    
+                }
+            }
         }
     }
 
