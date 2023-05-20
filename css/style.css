@@ -795,7 +795,7 @@
   line-height: 24px;
   text-decoration: none;
   color: #FFFFFF;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .content-link_black {
   color: #000000;
@@ -873,7 +873,7 @@
 }
 
 .header {
-  margin-bottom: 127px;
+  margin-bottom: 85px;
 }
 
 .top--catalog {
@@ -1169,10 +1169,6 @@ select {
     row-gap: 50px;
   }
   .spec-content__title {
-    text-align: center;
-  }
-  .spec-content__link {
-    display: block;
     text-align: center;
   }
 }
