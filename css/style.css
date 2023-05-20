@@ -288,6 +288,10 @@
   right: 4%;
   top: 4%;
   cursor: pointer;
+  fill: white;
+}
+.product-card__wrap-img:hover .product-card__choice-one:hover {
+  fill: rgb(244, 132, 132);
 }
 .product-card__wrap-img:hover .product-card__choice-two {
   display: block;
@@ -295,6 +299,10 @@
   right: 12.15%;
   top: 3.3%;
   cursor: pointer;
+  fill: white;
+}
+.product-card__wrap-img:hover .product-card__choice-two:hover {
+  fill: rgb(244, 132, 132);
 }
 .product-card__picture {
   width: 100%;

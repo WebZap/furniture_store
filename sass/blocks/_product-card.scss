@@ -3,23 +3,23 @@
     box-sizing: border-box;
     transition: .3s;
     padding: 5px;
-    
-    &:hover{
+
+    &:hover {
         box-shadow: 0px 0px 10px 1px #808080;
         transform: scale(1.005);
-        
-        
+
+
     }
-    
+
 
     &__choice-one {
         display: none;
-        
+
     }
 
     &__choice-two {
         display: none;
-        
+
     }
 
     &__wrap-img {
@@ -28,12 +28,17 @@
 
         &:hover {
             .product-card__choice-one {
+
                 display: block;
                 position: absolute;
                 right: 4%;
                 top: 4%;
                 cursor: pointer;
-                
+                fill: white;
+
+                &:hover {
+                    fill: rgb(244, 132, 132);
+                }
 
             }
 
@@ -43,7 +48,11 @@
                 right: 12.15%;
                 top: 3.3%;
                 cursor: pointer;
-                
+                fill: white;
+
+                &:hover {
+                    fill: rgb(244, 132, 132);
+                }
             }
         }
     }
