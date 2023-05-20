@@ -35,15 +35,16 @@
                 top: 4%;
                 cursor: pointer;
 
-                svg {
-                    fill: white;
-
-                    &:hover {
-                        fill: rgb(244, 132, 132);
-                    }
-                }
+                
 
             }
+            .product-card__choice-one svg {
+                            fill: white;
+            
+                            &:hover {
+                                fill: rgb(244, 132, 132);
+                            }
+                        }
 
             .product-card__choice-two {
                 display: block;
@@ -51,18 +52,14 @@
                 right: 12.15%;
                 top: 3.3%;
                 cursor: pointer;
-
-                svg {
-                    fill: white;
-
-                    &:hover {
-                        fill: rgb(244, 132, 132);
-                    }
-                }
-
-
-
             }
+            .product-card__choice-two svg {
+                            fill: white;
+            
+                            &:hover {
+                                fill: rgb(244, 132, 132);
+                            }
+                        }
         }
     }
 
